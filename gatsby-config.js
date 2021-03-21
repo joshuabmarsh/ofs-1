@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Building observingfromspace From Scratch Project`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Lance Armstrong`,
+      summary: `Im currently on hiatus on Earth and sharing thoughts via code`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `Looking at problems from a different perspective.`,
+    siteUrl: `https://observingfromspace.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `ofs`,
     },
   },
   plugins: [
