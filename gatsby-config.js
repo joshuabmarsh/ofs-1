@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Building observingfromspace From Scratch Project`,
+    title: `Re-building observingfromspace From Scratch`,
     author: {
-      name: `Lance Armstrong`,
+      name: `Lance`,
       summary: `Im currently on hiatus on Earth and sharing thoughts via code`,
     },
     description: `Looking at problems from a different perspective.`,
@@ -112,13 +112,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
+        name: `OFS - WIP`,
         short_name: `GatsbyJS`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/ofs_logo.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-react-helmet`,
