@@ -36,7 +36,7 @@ const Bio = () => {
         className="bio-avatar"
         layout="fixed"
         formats={["AUTO", "WEBP", "AVIF"]}
-        src="../images/ofs_logo.png"
+        src="/static/favicon.ico"
         width={50}
         height={50}
         quality={95}
@@ -47,7 +47,6 @@ const Bio = () => {
           Written by <strong>{author.name}</strong> {author?.summary || null}
           {` `}
           <a href={`https://twitter.com/${social?.twitter || ``}`}>
-            You should not follow them on Twitter
           </a>
         </p>
       )}
